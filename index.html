@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Slingshot Simulator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<div id="info">
+			<span>Hover and Click to the Left of the Slingshot to Aim and Fire</span>
+		</div>
+		<div id="background">
+			<div id="sky"></div>
+			<div id="ground"></div>
+		</div>
+		<div id="mainContent" class="targetting"></div>
+		<div id="eraser">
+			<span>Erase Previous Shots</span>
+			<input id="erase" type="checkbox" checked>
+		</div>
+		<button id="reset">New Shot</button>
+		<div id="stats">
+			<table>
+				<tbody>
+					<tr>
+						<td><h4>Shot Amplifier</h4></td>
+						<td><h4>Distance Travelled:</h4></td>
+					</tr>
+					<tr>
+						<td><input type="number" id="amplifier" placeholder="Default: 2"></td>
+						<td id="distance">-</td>
+					</tr>
+					<tr>
+						<td><h4>Initial Angle:</h4></td>
+						<td><h4>Initial Velocity:</h4></td>
+					</tr>
+					<tr>
+						<td id="angle">-</td>
+						<td id="velocity">-</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

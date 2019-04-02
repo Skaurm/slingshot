@@ -1,0 +1,78 @@
+body {
+	background-color: #EEEEEE;
+	font-family: 'Open Sans', sans-serif;
+}
+#container {
+	min-width: 1000px;
+	overflow:hidden;
+}
+#background {
+	height: 500px;
+	width: 1000px;
+	margin:auto;
+	margin-bottom: -500px;
+	border:1px solid black;
+	position:relative;
+	top:2px;
+	z-index: -1;
+}
+#sky {
+	background-color: rgb(079, 129, 189);
+	height: 400px;
+}
+#ground {
+	background-color: rgb(023, 157, 079);
+	height: 100px;
+}
+
+#info {
+	margin: auto;
+    text-align: center;
+    margin-bottom: -20px;
+    color: yellow;
+}
+#mainContent {
+	width: 1000px;
+	height: 500px;
+	border: 1px solid black;
+	margin: auto;
+}
+.cell {
+	/*border: 1px solid #AAAAAA;*/
+	height: 20px;
+	width: 20px;
+	float:left;
+	/*border-radius: 50%;*/
+}
+#eraser {
+	margin:auto;
+	height:0;
+	position:relative;
+	top:5px;
+	text-align: center;
+}
+#reset {
+	margin: auto;
+    display: block;
+    font-size: 1.3em;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: black;
+    margin-bottom: -60px;
+    position: relative;
+    top: 45px;
+}
+#stats>table {
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+h4 {
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+td {
+    width: 500px;
+}
